@@ -1,4 +1,5 @@
 // console.log can print something on console 
+alert("i'm javascript");
 console.log("hello world");
 
 
