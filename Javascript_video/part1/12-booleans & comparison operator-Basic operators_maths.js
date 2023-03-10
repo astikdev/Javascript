@@ -42,7 +42,7 @@ boolExample(all$y);
 //output: Hey there!
 
 
-
+// // // Basic operators, maths
 // // // String concatenation with binary +
 
 // let $ = "my" + "string";
