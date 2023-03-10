@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 // intro to variables
 
 // variables can store some information
@@ -16,7 +16,27 @@ console.log(firstName);
 
 // change value 
 
-firstName = "Mohit";
+var firstName = "Mohit"; //alredy declerad but not error show
 
 console.log(firstName);
+
+
+
+let firstname = "Harshit";
+ firstname = "Harshit3";
+
+console.log(firstname);
+
+var yourName;
+console.log(yourName);  // undefined
+
+
+// let firstame = "Harshit";
+// let firstame = "Harshit4";
+
+console.log(firstame);  
+// 02-variables.js:34 Uncaught ReferenceError: firstame is not defined
+// at 02-variables.js:37:13
+
+
 
