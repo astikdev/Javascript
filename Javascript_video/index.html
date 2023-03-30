@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <script defer src="./part1/001-scope & lexical environment.js"></script> -->
     <style>
         *{
             text-align: center;
@@ -14,7 +15,13 @@
 </head>
 <body>
 
+
+
+
+    <!-- <script src="./part1/001-scope & lexical environment.js" async></script> -->
+    <!-- <script defer src="./part1/001-scope & lexical environment.js" ></script> -->
     <h1>MAIN JAVASCRIPT TUTORIAL</h1>
+    
     <!-- <script src="part1/01.js"></script> -->
     <!-- <script src="part1/02-variables.js"></script> -->
     <!-- <script src="part1/03-rules for naming variables.js"></script> -->
@@ -26,7 +33,7 @@
     <!-- <script src="part1/09-string concatenation.js"></script> -->
     <!-- <script src="part1/10-template string.js"></script> -->
     <!-- <script src="part1/11-undefined null BigInt.js"></script> -->
-    <script src="part1/12-booleans & comparison operator-Basic operators_maths.js"></script>
+    <!-- <script src="part1/12-booleans & comparison operator-Basic operators_maths.js"></script> -->
     <!-- <script src="part1"></script> -->
     <!-- <script src="part1"></script> -->
     <!-- <script src="part1/15-ternary operator.js"></script> -->
@@ -136,6 +143,45 @@
     <!-- <script src="part1"></script> -->
     
 
+
+    <script>
+        // function src(){ 
+        //     let Script$ = Document.createElement(`Script$`);
+        //     Script$.src = "./part1/001-scope & lexical environment.js"
+        //     document.body.append(Script$);
+        // }
+        // src()
+
+
+        function loadScript(src) {
+            let script = document.createElement('script');
+            script.src = src;
+            // script.async = false;
+            document.body.append(script);
+        }
+
+        // long.js runs first because of async=false
+        loadScript("./part1/001-scope & lexical environment.js");
+        // loadScript("/article/script-async-defer/small.js");
+    
+
+
+        function load$cript(src) {
+            let script = document.createElement('script');
+            script.src = src;
+            script.async = false;
+            document.body.append(script);
+        }
+
+        // long.js runs first because of async=false
+        load$cript("./part1/02-variables.js");
+        // loadScript("/article/script-async-defer/small.js");
+    
+    
+    
+    
+    
+    </script>
 
 
 </body>

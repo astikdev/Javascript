@@ -21,3 +21,7 @@ console.log(full$Name);
 let full$_Name = `${firstName}    ${lastName}`;
 console.log(full$_Name);
 
+
+
+let a=3000;
+console.log("I love you", a,"!");

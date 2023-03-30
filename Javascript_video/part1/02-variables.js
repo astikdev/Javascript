@@ -9,23 +9,23 @@
 
 
 
-var firstName = "Harshit";
+var first$_Name = "Harshit";
 
 // use a variable 
-console.log(firstName);
+console.log(first$_Name);
 
 // change value 
 
-var firstName = "Mohit"; //alredy declerad but not error show
+var first_Name = "Mohit"; //alredy declerad but not error show
 
-console.log(firstName);
+console.log(first_Name);
 
 
 
-let firstname = "Harshit";
- firstname = "Harshit3";
+let first$name = "Harshit";
+ first$name = "Harshit3";
 
-console.log(firstname);
+console.log(first$name);
 
 var yourName;
 console.log(yourName);  // undefined
